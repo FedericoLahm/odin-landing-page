@@ -5,7 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page with CSS and Flexbox</title>
+    <link rel="stylesheet" href="./styles.css">
+    <!-- FONT ROBOTO ADDED #START COMMENT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- FONT ROBOTO ADDED #END COMMENT -->
 </head>
+
+
 <body>
     <header>
         <div class="logo">Header Logo</div>
@@ -16,18 +24,18 @@
                 <li>Header link three</li>
             </ul>
         </div>
-        <hr>
+    </header>
+    <hr>
+    <main>
         <div class="title">
             <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-            <button>Sign up</button>
+            <p class="sub-title">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+            <button class="sign-up">Sign up</button>
         </div>
         <div class="title-img">
             <img src="https://cdn.pixabay.com/photo/2017/09/25/13/12/cocker-spaniel-2785074_960_720.jpg" width="300" height="200" alt="doggie" placeholder="this is placeholder image">
         </div> 
-    </header>
-    <hr>
-    <main>
+        <hr>
         <div class="main1">
             <h2>Some random information.</h2>
             <div class="container1">
@@ -61,13 +69,13 @@
             <div class="container2">
                 <h3>Call to action! It's time!</h3>
                 <p>Sign up for our product by clicking that button right over there!</p>
-                <button>Sign up</button>
+                <button class="cta">Sign up</button>
             </div>
         </div>
     </main>
     <hr>
     <footer>
-        Copywright &copy; The Odin Project 2022
+        <div>Copywright &copy; The Odin Project 2022</div>
     </footer>
 </body>
 </html>
