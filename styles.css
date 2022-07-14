@@ -1,3 +1,5 @@
+/* SHARED CHANGES START HERE */
+
 * {
     font-family: 'Roboto', sans-serif;
     /*box-sizing: border-box;*/
@@ -20,10 +22,11 @@ footer,
     color: #E5E7EB
 }
 
+/* SHARED CHANGES END HERE */
+
 /* HEADER CHANGES START HERE */
 
 header {
-    /*height: 72px;*/
     display: flex;
     justify-content: space-between;
     padding: 16px 120px 16px 200px;
@@ -51,13 +54,14 @@ ul {
 
 /* HEADER CHANGES END HERE */
 
-/* MAIN CHANGES START HERE */
+/* TITLE CHANGES START HERE */
 
 .title {
-    background-color: #1F2937;
-    padding: 100px 120px 100px 200px;
+    padding: 100px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
 }
 
 .title-text {
@@ -65,12 +69,15 @@ ul {
     flex-wrap: wrap;
     flex: 1;
     align-items: center;
+    max-width: 400px;
 }
 
 .title-img {
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 400px;
+    flex-shrink: 0;
 }
 
 
@@ -101,5 +108,63 @@ h1 {
     text-align: center;
 }
 
-/* MAIN CHANGES END HERE */
+/* TITLE CHANGES END HERE */
 
+/* MAIN1 CHANGES START HERE */
+
+.main1 {
+    text-align: center;
+    margin-bottom: 10em;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 32px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.item>img {
+    width: 100px;
+    height: 100px;
+    padding: 1em;
+    border: 3px solid rgb(73, 94, 212);
+    border-radius: 8px;
+}
+
+.item {
+    max-width: 150px;
+}
+
+.text {
+    color: gray;
+}
+
+/* MAIN1 CHANGES END HERE */
+
+/* MAIN2 CHANGES START HERE */
+
+.main2 {
+    background-color: #E5E7EB;
+    padding: 10em 15em;
+}
+
+.quote {
+    text-align: justify;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
+}
