@@ -29,18 +29,20 @@ footer,
 header {
     display: flex;
     justify-content: space-between;
-    padding: 16px 120px 16px 200px;
+    padding: 16px 120px;
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
+    margin: auto;
 }
 
 .bar {
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
 
 ul {
@@ -61,7 +63,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2em;
+    gap: 4em;
 }
 
 .title-text {
@@ -168,3 +170,59 @@ h2 {
     font-weight: bold;
     font-size: 20px;
 }
+
+/* MAIN2 CHANGES END HERE */
+
+/* MAIN3 CHANGES START HERE */
+
+.main3 {
+    color: #F9FAF8;
+}
+
+.container3 {
+    background-color: #3882F6;
+    margin: 5em 13em;
+    padding: 3em 8em;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h3,
+.cta-text>p {
+    margin: 0;
+    padding: 0;
+}
+
+.cta {
+    background-color: transparent;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 32px;
+    white-space: nowrap;
+}
+
+/* FOOTER CHANGES START HERE */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy {
+    padding: 3em; 
+    color: #F9FAF8
+}
+
+/* FOOTER CHANGES END HERE */
+
